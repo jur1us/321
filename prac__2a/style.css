@@ -1,0 +1,182 @@
+body {
+  background-color: white;
+  margin: 0;
+}
+
+/* CSS для кгругів */
+.circle1 {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background: url(./pictures/pexels-photo-3914752.jpg) no-repeat;
+  background-size: 140%;
+  background-position: 100%;
+}
+
+.circle2 {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: black;
+  background: url(./pictures/pexels-mohamed-abdelsadig-3196486.jpg) no-repeat;
+  background-position: 100%;
+  background-size: 100%;
+}
+
+.circle3 {
+  width: 175px;
+  height: 175px;
+  border-radius: 50%;
+  background-color: black;
+  background: url(./pictures/pexels-harry-shum-12694483.jpg) no-repeat;
+  background-position: 100%;
+  background-size: 150%;
+}
+
+/* CSS для блоків */
+.block1 {
+  width: 367px;
+  height: 230px;
+  background-color: rgb(242 242 242);
+  border-radius: 40px;
+}
+.block2 {
+  width: 365px;
+  height: 230px;
+  background-color: rgb(242 242 242);
+  border-radius: 40px;
+}
+.block3 {
+  width: 365px;
+  height: 230px;
+  background-color: rgb(242 242 242);
+  border-radius: 40px;
+}
+
+/* CSS для кнопок*/
+.button1 {
+  width: 150px;
+  height: 45px;
+  border-radius: 40px;
+  margin-left: 10px;
+  margin-top: 27px;
+  background-color: hsl(135.14deg 88.98% 53.73%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+
+/* CSS для тексу блоків */
+.block1 h3 {
+  font-size: 25px;
+  text-align: left;
+  margin-left: 23px;
+}
+.block1 p {
+  font-size: 17px;
+  text-align: left;
+  margin-left: 17px;
+  margin-top: -10px;
+}
+
+.text {
+  color: grey;
+}
+
+.main {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.main1 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: right;
+  padding-right: 25px;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.text1 {
+  color: grey;
+  display: flex;
+  justify-content: right;
+  font-size: 17px;
+  padding-right: 25px;
+  text-align: right;
+}
+
+.button2 {
+  width: 150px;
+  height: 45px;
+  border-radius: 40px;
+  background-color: hsl(135.14deg 88.98% 53.73%);
+  margin-left: 215px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+
+.button3 {
+  width: 150px;
+  height: 45px;
+  border-radius: 40px;
+  margin-left: 10px;
+  margin-top: 27px;
+  background-color: hsl(135.14deg 88.98% 53.73%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  cursor: pointer;
+}
+
+.text3 {
+  color: grey;
+  display: flex;
+  justify-content: left;
+  font-size: 17px;
+  padding-left: 25px;
+  text-align: left;
+}
+
+.main3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding-left: 25px;
+  font-size: 25px;
+  margin-top: 15px;
+}
+
+.container {
+  padding-top: 20px;
+  display:  flex;
+  justify-content:  right;
+  align-items:  center;
+}
+.container1 {
+  padding-top: 20px;
+  display:  flex;
+  justify-content:  left;
+  align-items:  center;
+}
+
+.one {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+.circle-holder {
+  padding-right: 30px;
+}
+.circle-holder1 {
+  padding-left: 30px;
+}

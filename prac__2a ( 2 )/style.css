@@ -1,0 +1,80 @@
+body {
+  height: 100vh; /* Забезпечте 100% висоти екрана */
+  margin: 0; /* Видаліть зовнішні відступи */
+  background: linear-gradient(
+    to bottom,
+    hsl(221.14deg, 31.53%, 21.76%) 50%,
+    hsl(221, 40%, 80%) 50%
+  ); /* Градієнтний фон: перша половина - вказаний hsl колір, друга половина - інший hsl колір */
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.title-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    color: #fff;
+    font-size: 55px;
+    padding-top: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.desc-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  width: 20px;
+  padding-right: 20px;
+}
+
+.at {
+  color: white;
+  font-size: 55px;
+  padding-right: 20px;
+}
+
+.num {
+  color: red;
+  font-size: 55px;
+  font-weight: 700;
+}
+
+.grid {
+  padding-top: 40px;
+  display: grid;
+  grid-template-columns: 1.5fr 1.5fr;
+  grid-template-rows: 0.3fr;
+  gap: 6px 6px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". .";
+}
+
+.head {
+  width: 100%;
+  height: 400px;
+  background: linear-gradient(rgba(0, 0, 0, 0.292), rgba(0, 0, 0, 0.5)), url(./img/bnbn.jpg);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.alps {
+  color: #fff;
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+

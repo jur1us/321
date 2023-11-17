@@ -1,0 +1,741 @@
+body {
+  margin: 0;
+  background-color: hsl(0deg 0% 85.1%);
+}
+
+.container {
+  margin: 0px 300px;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.header-line {
+  background-color: white;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.logo {
+  height: 38px;
+  width: 38px;
+  color: gray;
+}
+
+.menu-bth {
+  height: 38px;
+  width: 38px;
+}
+
+.header-text {
+  display: flex;
+  justify-content: right;
+}
+
+.header-title {
+  margin-top: 60px;
+  margin-right: 70px;
+  font-size: 37px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 700;
+  position: relative;
+  padding-right: 40px;
+}
+
+.header-title::after {
+  position: absolute;
+  content: "";
+  height: 420px;
+  width: 10px;
+  background-color: rgb(232 184 70);
+  top: 0;
+  left: 100%;
+}
+
+.header-subtitle {
+  margin-top: 60px;
+  margin-right: 90px;
+  color: rgb(204, 207, 210);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.header-down {
+  background-image: url(./images/jhj-min.jpg);
+  height: 80vh;
+  background-position: center;
+}
+
+.button {
+  background-color: rgb(232 184 70);
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  padding: 10px 33px;
+  border-radius: 10px;
+  color: black;
+
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: rgb(171, 136, 53);
+}
+
+.bth {
+  margin-top: 100px;
+}
+
+.cards {
+  margin-bottom: 40px;
+}
+
+.cards-holder {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-image {
+  display: flex;
+  justify-content: center;
+}
+
+.card-img {
+  width: 40px;
+  height: 40px;
+  padding: 20px;
+  margin-top: 5px;
+}
+
+.card-title {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.img-circle {
+  display: flex;
+  justify-content: center;
+  width: 90px;
+  height: 90px;
+
+  background-color: orange;
+  border-radius: 50%;
+
+  margin-top: 20px;
+}
+
+.card-desc {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: gray;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 30px;
+}
+
+.card {
+  background-color: #fff;
+  margin-top: -30px;
+  width: 345px;
+  box-shadow: 10px 10px 40px 20px #0000002a;
+}
+
+.section {
+  background-color: orange;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 100px;
+}
+
+.one {
+  width: 60%;
+  height: 100%;
+  margin: auto;
+}
+
+.block-card {
+  background-color: #fff;
+  padding: 23px;
+  margin-top: 0px;
+  position: relative;
+  width: fit-content;
+  z-index: 5;
+  left: 70%;
+  top: -10%;
+  -webkit-box-shadow: -12px -12px 43px -36px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -12px -12px 43px -36px rgba(0, 0, 0, 0.75);
+  box-shadow: -12px -12px 43px -36px rgba(0, 0, 0, 0.75);
+}
+
+.title {
+  margin-bottom: 50px;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sub-title {
+  color: gray;
+}
+
+.bth1 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+
+.block-img {
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  margin-right: 190px;
+  padding: 90px;
+  margin-top: 70px;
+}
+
+.img {
+  width: 700px;
+}
+
+.circle1 {
+  width: 180px;
+  height: 180px;
+  background-color: rgb(229 229 229);
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -365px;
+  margin-top: 62px;
+  z-index: 3;
+  margin: 0;
+  top: 75%;
+  left: -15%;
+}
+
+.circle2 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(229 229 229);
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -1050px;
+  margin-top: 470px;
+  /* background: rgb(255, 255, 255); */
+  /* background: rgb(255, 165, 0); */
+  background: repeating-linear-gradient(
+    rgba(255, 165, 0, 1),
+    rgba(255, 165, 0, 1) 15px,
+    rgba(255, 255, 255, 1) 15px,
+    rgba(255, 255, 255, 1) 20px
+  );
+
+  transform: rotate(-45deg);
+  /* background: linear-gradient(
+    135deg,
+    rgba(255, 165, 0, 1) 0%,
+    rgba(255, 165, 0, 1) 6%,
+    rgba(255, 255, 255, 1) 6%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 165, 0, 1) 10%,
+    rgba(255, 165, 0, 1) 14%,
+    rgba(255, 255, 255, 1) 14%,
+    rgba(255, 255, 255, 1) 18%,
+    rgba(255, 165, 0, 1) 18%,
+    rgba(255, 165, 0, 1) 22%,
+    rgba(255, 255, 255, 1) 22%,
+    rgba(255, 255, 255, 1) 26%,
+    rgba(255, 165, 0, 1) 26%,
+    rgba(255, 165, 0, 1) 30%,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(255, 255, 255, 1) 34%,
+    rgba(255, 165, 0, 1) 34%,
+    rgba(255, 165, 0, 1) 38%,
+    rgba(255, 255, 255, 1) 38%,
+    rgba(255, 255, 255, 1) 42%,
+    rgba(255, 165, 0, 1) 42%,
+    rgba(255, 165, 0, 1) 46%,
+    rgba(255, 255, 255, 1) 46%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 165, 0, 1) 50%,
+    rgba(255, 165, 0, 1) 54%,
+    rgba(255, 255, 255, 1) 54%,
+    rgba(255, 255, 255, 1) 58%,
+    rgba(255, 165, 0, 1) 58%,
+    rgba(255, 165, 0, 1) 62%,
+    rgba(255, 255, 255, 1) 62%,
+    rgba(255, 255, 255, 1) 66%,
+    rgba(255, 165, 0, 1) 66%,
+    rgba(255, 165, 0, 1) 70%,
+    rgba(255, 255, 255, 1) 70%,
+    rgba(255, 255, 255, 1) 74%,
+    rgba(255, 165, 0, 1) 74%,
+    rgba(255, 165, 0, 1) 78%,
+    rgba(255, 255, 255, 1) 78%,
+    rgba(255, 255, 255, 1) 82%,
+    rgba(255, 165, 0, 1) 82%,
+    rgba(255, 165, 0, 1) 86%,
+    rgba(255, 255, 255, 1) 86%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(255, 165, 0, 1) 90%
+  ); */
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Два столбца с равной шириной */
+  grid-template-rows: repeat(2, 1fr); /* Два ряда с равной высотой */
+  grid-gap: 30px; /* Расстояние между ячейками */
+  padding: 70px;
+}
+
+.grid-item {
+  display: flex;
+  background-color: white;
+  padding: 20px;
+  text-align: center;
+  text-align: left;
+  -webkit-box-shadow: 0px 0px 39px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 39px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 39px -24px rgba(0, 0, 0, 0.75);
+}
+
+.text {
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+.img-holder {
+  width: 80%;
+  height: 50%;
+  margin: auto;
+  z-index: 4;
+  position: relative;
+  top: 20%;
+}
+
+.img1 {
+  width: 100%;
+  height: 100%;
+  background: url(./images/jhj-min.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  z-index: 4;
+}
+
+.cube {
+  margin-right: 15px;
+  width: 40px;
+  height: 80px;
+  background-color: orange;
+}
+
+.section1 {
+  margin-bottom: 100px;
+}
+
+.gallery {
+  margin-bottom: 100px;
+}
+
+.gallery-card {
+  background-color: #fff;
+  padding: 23px;
+  margin-top: 0px;
+  position: relative;
+  width: fit-content;
+  z-index: 5;
+  margin: auto;
+  -webkit-box-shadow: 0px 0px 39px -24px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 39px -24px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 39px -24px rgba(0, 0, 0, 0.75);
+}
+
+.bth2 {
+  padding: 16px;
+  margin-top: 10%;
+}
+
+.gallery-title {
+  padding: 16px;
+  font-size: 35px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 800;
+}
+
+.gallery-sub {
+  padding: 16px;
+  color: gray;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 18px;
+}
+
+.gallery-holder {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+}
+
+.gal-img {
+  width: 30%;
+  margin-top: -200px;
+  z-index: 2;
+  position: absolute;
+}
+
+.gal-img1 {
+  width: 50%;
+  margin-top: -100px;
+  left: 420px;
+  z-index: 2;
+  position: absolute;
+}
+
+.gal-img2 {
+  width: 30%;
+  position: absolute;
+  z-index: 3;
+  margin-top: 20%;
+  left: 25%;
+}
+.gal-img3 {
+  width: 30%;
+  position: absolute;
+  z-index: 3;
+  margin-top: 40%;
+  left: 60%;
+}
+
+.text1 {
+  width: 40%;
+  margin-top: 55%;
+  position: absolute;
+  padding: 3%;
+  color: gray;
+}
+
+.text1::before {
+  position: absolute;
+  content: "";
+  height: 130px;
+  width: 7px;
+  background-color: gray;
+  top: 8%;
+  right: 100%;
+}
+
+.section2 {
+  margin-top: 800px;
+  background-color: orange;
+  width: 100%;
+  height: 80vh;
+}
+
+.holder {
+  padding: 50px;
+  padding-right: 160px;
+}
+
+.vib-holder {
+  display: flex;
+  justify-content: right;
+  padding-top: 15%;
+}
+
+.vibrant-text {
+  display: inline-block;
+  background-color: #fff;
+  padding: 30px;
+  z-index: 3;
+  box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+}
+
+.vib-title {
+  font-size: 40px;
+  padding-bottom: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 900;
+}
+
+.bth3 {
+  padding-top: 20px;
+  padding-bottom: 6px;
+  margin-top: 10%;
+}
+
+.vib-desc {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+.block {
+  background-color: rgb(220 220 220);
+  width: 490px;
+  height: 250px;
+  position: absolute;
+  margin-top: 250px;
+  margin-right: -45px;
+  z-index: 2;
+}
+
+.circle3 {
+  background-color: #fff;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  z-index: 2;
+  position: absolute;
+  margin-top: -70px;
+  margin-right: -70px;
+}
+
+.img2 {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -70px;
+  margin-right: 300px;
+
+  background-image: url(./images/pillow-with-lemons-yellow-armchair-interior-room_169016-16555.webp);
+  background-position: center;
+  background-size: cover;
+}
+
+.circle4 {
+  width: 150px;
+  height: 150px;
+  background-color: rgb(229 229 229);
+  border-radius: 50%;
+  position: absolute;
+  margin-left: -1050px;
+  margin-top: 470px;
+  transform: rotate(-45deg);
+  /* background: rgb(255, 255, 255); */
+  /* background: rgb(255, 165, 0); */
+  background: repeating-linear-gradient(
+    rgba(255, 166, 0, 0),
+    rgba(255, 166, 0, 0) 15px,
+    rgba(255, 255, 255, 1) 15px,
+    rgba(255, 255, 255, 1) 20px
+  );
+}
+
+.section3 {
+  background-color: rgb(199, 199, 199);
+  width: 100%;
+  height: 115vh;
+}
+
+.cozy-kitchen {
+  display: flex;
+  padding-top: 40%;
+  padding-left: 20%;
+}
+
+.cozy-holder {
+  background-color: #fff;
+  display: inline-block;
+  height: 100%;
+  padding: 30px;
+  z-index: 4;
+  box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+}
+
+.cozy-title {
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.cozy-desc {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+}
+
+.block1 {
+  background-color: #848484;
+  width: 450px;
+  height: 230px;
+  position: absolute;
+  z-index: 2;
+  margin-top: -290px;
+  margin-left: -130px;
+  background-image: url(./images/gfgf.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.block2 {
+  background-color: gray;
+  width: 540px;
+  height: 460px;
+  position: absolute;
+  z-index: 1;
+  margin-top: -230px;
+  margin-left: 240px;
+  background-image: url(./images/gggg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.block3 {
+  background-color: gray;
+  position: absolute;
+  width: 400px;
+  height: 250px;
+  z-index: 3;
+  margin-top: 200px;
+  margin-left: -160px;
+  background-image: url(./images/fggg-min.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.block4 {
+  background-color: #848484;
+  width: 250px;
+  height: 330px;
+  position: absolute;
+  z-index: 2;
+  margin-top: 280px;
+  margin-left: 400px;
+  background-image: url(./images/ffff.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.section4 {
+  background-color: orange;
+  height: 62vh;
+}
+
+.contact-holder {
+  display: flex;
+  justify-content: right;
+}
+
+.holder1 {
+  display: inline-block;
+  background-color: #fff;
+  padding: 50px 90px 50px 90px ;
+  margin-top: 30px;
+  box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contact-title {
+  font-size: 35px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.name {
+  width: 370px;
+  border: 0;
+  background-color: rgb(216, 216, 216);
+  padding: 10px;
+}
+
+.email {
+  width: 370px;
+  border: 0;
+  background-color: rgb(216, 216, 216) ;
+  padding: 10px;
+}
+
+.textarea {
+  width: 384px;
+  border: 0;
+  background-color: rgb(216, 216, 216);
+  resize: none;
+}
+
+.bth4 {
+  padding-top: 20px;
+}
+
+.button4 {
+  background-color: rgb(232 184 70);
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  padding: 10px 156px;
+  border: 0;
+
+  color: black;
+
+  transition: 0.3s;
+}
+
+.button4:hover {
+  background-color: rgb(171, 136, 53);
+}
+
+.grid1 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Два столбца с равной шириной */
+  grid-template-rows: repeat(2, 1fr); /* Два ряда с равной высотой */
+  grid-gap: 30px; /* Расстояние между ячейками */
+  padding: 70px;
+  position: absolute;
+  margin-right: 465px;
+  margin-top: -10px;
+}
+
+.img4 {
+  width: 70px;
+}
+
+.gitem1 {
+  text-align: center;
+  background-color: rgb(184, 184, 184);
+  width: 170px;
+  padding: 20px;
+
+  box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.342);
+  -webkit-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.438);
+  -moz-box-shadow: 0px 0px 31px 0px rgba(0, 0, 0, 0.75);
+}
+
+.title1 {
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.desc {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section5 {
+  height: 10vh;
+  background-color: hsl(0deg 0% 20%);
+}
+
+.last {
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+  color: white;
+}
