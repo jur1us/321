@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+
+
+<body>
+    
+    <div style="margin-bottom: 50px;">
+
+        <h1>1. Калькулятор за формулою Герона :</h1>
+
+        <label for="heronA">Сторона a:</label>
+        <input type="text" id="heronA" placeholder="Введіть сторону a">
+
+        <label for="heronB">Сторона b:</label>
+        <input type="text" id="heronB" placeholder="Введіть сторону b">
+
+        <label for="heronC">Сторона c:</label>
+        <input type="text" id="heronC" placeholder="Введіть сторону c">
+
+        <button type="button" onclick="calculateHeron()">Розрахувати</button>
+
+        <p id="heronResult"></p>
+
+        <hr style="border: 1px solid black;">
+
+    </div>
+
+
+    <div style="margin-bottom: 50px;">
+
+        <h1>2. Площа трикутника за двома сторонами і кутом між ними :</h1>
+
+        <label for="angleA">Сторона a:</label>
+        <input type="text" id="angleA" placeholder="Введіть сторону a">
+
+        <label for="angleB">Сторона b:</label>
+        <input type="text" id="angleB" placeholder="Введіть сторону b">
+
+        <label for="angle">Кут між сторонами (градуси):</label>
+        <input type="text" id="angle" placeholder="Введіть кут">
+
+        <button type="button" onclick="calculateAngle()">Розрахувати</button>
+
+        <p id="angleResult"></p>
+
+        <hr style="border: 1px solid black;">
+
+    </div>
+
+    <div style="margin-bottom: 50px;">
+
+        <h1>3. Калькулятор за стороною трикутника і висотою :</h1>
+
+        <label for="side">Сторона трикутника:</label>
+        <input type="text" id="side" placeholder="Введіть сторону трикутника">
+
+        <label for="height">Висота трикутника:</label>
+        <input type="text" id="height" placeholder="Введіть висоту трикутника">
+
+        <button type="button" onclick="calculateSideAndHeight()">Розрахувати</button>
+
+        <p id="sideResult"></p>
+
+        <hr style="border: 1px solid black;">
+
+    </div>
+
+    <div style="margin-bottom: 50px;">
+
+        <h1>4. Калькулятор за трьома сторонами і радіусом описаного кола :</h1>
+        
+        <label for="sidesA">Сторона a:</label>
+        <input type="text" id="sidesA" placeholder="Введіть сторону a">
+
+        <label for="sidesB">Сторона b:</label>
+        <input type="text" id="sidesB" placeholder="Введіть сторону b">
+
+        <label for="sidesC">Сторона c:</label>
+        <input type="text" id="sidesC" placeholder="Введіть сторону c">
+
+        <label for="radius">Радіус описаного кола:</label>
+        <input type="text" id="radius" placeholder="Введіть сторону c">
+
+        <button type="button" onclick="calculateSidesAndRadius()">Розрахувати</button>
+
+        <p id="sidesResult"></p>
+
+        <hr style="border: 1px solid black;">
+
+
+    </div>
+
+    <div  style="margin-bottom: 50px;">
+
+        <h1>5. Перевірка на паліндром</h1>
+
+        <label for="inputNumber">Введіть число :</label>
+        <input type="text" id="inputNumber" placeholder="Введіть число">
+
+        <button type="button" onclick="checkPalindrome()">Перевірити</button>
+
+        <p id="result"></p>
+
+        <hr style="border: 1px solid black;">
+
+    </div>
+
+    <div style="margin-bottom: 50px;">
+
+        <h1>6. Перевірка на анаграму :</h1>
+
+        <label for="inputWord1">Введіть перше слово:</label>
+        <input type="text" id="inputWord1" placeholder="Перше слово">
+
+        <label for="inputWord2">Введіть друге слово:</label>
+        <input type="text" id="inputWord2" placeholder="Друге слово">
+
+        <button type="button" onclick="checkAnagram()">Перевірити</button>
+
+        <p id="result2"></p>
+
+        <hr style="border: 1px solid black;">
+
+    </div>
+
+    <div style="margin-bottom: 50px;">
+
+        <h1>7. Число у послідовності Фібоначчі :</h1>
+
+        <label for="fibIndex">Введіть порядковий номер :</label>
+        <input type="text" id="fibIndex" placeholder="Порядковий номер">
+
+        <button type="button" onclick="getFibonacciNumber()">Знайти число</button>
+
+        <p id="fibResult"></p>
+
+        <hr style="border: 1px solid black;">
+
+    </div>
+
+    <div>
+
+        <h1>8. Перевірка належності до послідовності Фібоначчі :</h1>
+
+        <label for="checkFibNumber">Введіть число:</label>
+        <input type="text" id="checkFibNumber" placeholder="Число">
+
+        <button type="button" onclick="checkFibonacci()">Перевірити</button>
+
+        <p id="checkFibResult"></p>
+
+        <hr style="border: 1px solid black;">
+
+    </div>
+
+</body>
+
+
+</html>

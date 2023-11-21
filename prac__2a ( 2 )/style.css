@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 70%;
+    width: 60%;
     margin: auto;
 }
 
@@ -48,33 +48,40 @@ body {
   font-weight: 700;
 }
 
-.grid {
-  padding-top: 40px;
-  display: grid;
-  grid-template-columns: 1.5fr 1.5fr;
-  grid-template-rows: 0.3fr;
-  gap: 6px 6px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    ". .";
+.block {
+  margin-top: 30px;
+  background-color:  white;
+  width: 100% ;
+  height: 75vh;
+
 }
 
-.head {
+.left {
+  width: 50%;
+  height: 60%;
+  background-color: orange;
+}
+
+.left_holder{
   width: 100%;
-  height: 400px;
-  background: linear-gradient(rgba(0, 0, 0, 0.292), rgba(0, 0, 0, 0.5)), url(./img/bnbn.jpg);
-  background-size: cover;
-  background-position: center;
+  height: 100%;
+}
 
+.nepal_kenia {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  height: 40%;
+  width: 50%;
+  display: flex;
 }
 
-.alps {
-  color: #fff;
-  font-size: 45px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.nepal {
+  background-color: blue;
+  width: 50%;
+  height: 100%;
 }
 
-
+.kenia {
+  background-color: green;
+  width: 50%;
+  height: 100%;
+}
