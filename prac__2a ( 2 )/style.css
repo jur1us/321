@@ -48,40 +48,110 @@ body {
   font-weight: 700;
 }
 
-.block {
-  margin-top: 30px;
-  background-color:  white;
-  width: 100% ;
-  height: 75vh;
+section {
+  margin-top: 20px;
+}
 
+.block {
+  display: flex;
+  width: 65%;
+  margin: auto;
+  height: 77vh;
 }
 
 .left {
   width: 50%;
-  height: 60%;
-  background-color: orange;
+  height: 77vh;
+  padding: 10px;
 }
 
-.left_holder{
+.right {
+  width: 50%;
+  height: 77vh;
+  padding: 10px;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+
+.img_left_top {
+  height: 60%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/bnbn.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img_right_down {
+  height: 60%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/nbn.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img_left_down {
+  height: 40%;
+  width: 100%;
+  padding-top: 20px;
+}
+
+.img_right_top {
+  width: 100%;
+  height: 40%;
+  padding-bottom: 20px;
+}
+
+.img_right_holder {
+  display: flex;
   width: 100%;
   height: 100%;
 }
 
-.nepal_kenia {
-  display: flex;
-  height: 40%;
+.right_img1 {
   width: 50%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/jkkjjk.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
+}
+.right_img2 {
+  width: 50%;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/rtrt.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.img_left_holder {
+  width: 100%;
+  height: 100%;
   display: flex;
 }
 
-.nepal {
-  background-color: blue;
+.left_img1 {
   width: 50%;
   height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/tt.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 20px;
 }
 
-.kenia {
-  background-color: green;
+.left_img2 {
   width: 50%;
   height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./img/jhjhjh.jpg);
+  background-position: center;
+  background-size: cover;
 }
+
